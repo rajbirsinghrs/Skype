@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".screen3" />
         <activity android:name=".myinfo" />
-        <activity android:name=".contact_online"></activity>
+        <activity android:name=".contact_online" />
+        <activity android:name=".bots"></activity>
     </application>
 
 </manifest>
