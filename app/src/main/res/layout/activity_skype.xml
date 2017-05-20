@@ -89,9 +89,9 @@
 
             <ImageButton
                 android:id="@+id/imageButton3"
-                android:layout_width="30dp"
-                android:layout_height="40dp"
-                android:layout_weight="0.17"
+                android:layout_width="@android:dimen/notification_large_icon_height"
+                android:layout_height="match_parent"
+                android:layout_weight="0.05"
                 app:srcCompat="@drawable/eeee" />
 
             <LinearLayout
@@ -122,14 +122,45 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:layout_weight="1"
-                android:text="TextView" />
+                android:layout_weight="0.83"
+                android:text="01-17"
+                android:textAlignment="textEnd" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="57dp"
-            android:layout_marginTop="360dp"
-            android:orientation="horizontal"></LinearLayout>
+            android:layout_height="32dp"
+            android:layout_marginTop="375dp"
+            android:orientation="horizontal"
+            android:layout_weight="0.04">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.14"
+                app:srcCompat="@drawable/drecent" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="58dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/contact"
+                android:layout_weight="0.09" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/calls" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.12"
+                app:srcCompat="@drawable/dmy" />
+
+        </LinearLayout>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
