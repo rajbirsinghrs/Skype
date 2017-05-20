@@ -17,9 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".screen3" />
-        <activity android:name=".myinfo" />
-        <activity android:name=".contact_online" />
-        <activity android:name=".bots"></activity>
+        <activity android:name=".calls"></activity>
     </application>
 
 </manifest>
