@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".screen3"></activity>
+        <activity android:name=".screen3" />
+        <activity android:name=".calls"></activity>
     </application>
 
 </manifest>
