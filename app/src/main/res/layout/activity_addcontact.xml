@@ -22,48 +22,62 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="58dp"
+            android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:weightSum="1"
-            android:layout_weight="0.04">
+            android:weightSum="1">
 
             <ImageView
                 android:id="@+id/imageView41"
-                android:layout_width="111dp"
-                android:layout_height="81dp"
-                android:layout_weight="0.02"
+                android:layout_width="46dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="12dp"
                 app:srcCompat="@drawable/tanu24" />
 
             <TextView
                 android:id="@+id/textView28"
                 android:layout_width="273dp"
-                android:layout_height="76dp"
+                android:layout_height="42dp"
+                android:paddingTop="12dp"
                 android:text="Add contact"
                 android:textAlignment="center"
-                android:textSize="24sp"
-                android:textStyle="bold" />
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_weight="0.73" />
 
         </LinearLayout>
 
-        <ImageView
-            android:id="@+id/imageView42"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.05"
-            app:srcCompat="@drawable/tanu30" />
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView42"
+                android:layout_width="189dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/people" />
+
+            <ImageView
+                android:id="@+id/imageView45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/botts" />
+        </LinearLayout>
 
         <ImageView
             android:id="@+id/imageView43"
-            android:layout_width="match_parent"
+            android:layout_width="349dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="8dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.04"
             app:srcCompat="@drawable/tanu31" />
 
         <TextView
             android:id="@+id/textView32"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.05"
+            android:layout_marginTop="20dp"
             android:text="   Search for people on Skype using their"
             android:textSize="18sp" />
 
@@ -71,15 +85,17 @@
             android:id="@+id/textView33"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.04"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="6dp"
             android:text="     Skype Name,email or full name."
             android:textSize="18sp" />
 
         <ImageView
             android:id="@+id/imageView44"
-            android:layout_width="match_parent"
+            android:layout_width="256dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.04"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
             app:srcCompat="@drawable/tanu33" />
 
     </LinearLayout>
