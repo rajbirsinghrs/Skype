@@ -33,6 +33,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:layout_weight="1"
+                android:onClick="addbots"
                 app:srcCompat="@drawable/tanu24" />
 
             <TextView
@@ -69,6 +70,7 @@
                         android:layout_width="171dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1.10"
+                        android:onClick="addbots1"
                         app:srcCompat="@drawable/people1" />
 
                     <ImageView

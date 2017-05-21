@@ -17,4 +17,9 @@ public class addcontact extends AppCompatActivity {
         Intent intent = new Intent(this, screen3.class);
         startActivity(intent);
     }
+
+    public void addcontact1(View view) {
+        Intent intent = new Intent(this, add_bots.class);
+        startActivity(intent);
+    }
 }
