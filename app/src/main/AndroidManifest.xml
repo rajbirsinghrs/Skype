@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".skype">
+        <activity android:name=".skype" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,8 +17,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".screen3" android:exported="true" />
+        <activity android:name=".addcontact" android:exported="true" />
+        <activity android:name=".bots" android:exported="true" />
         <activity android:name=".calls" android:exported="true"/>
-        <activity android:name=".add_bots"android:exported="true"></activity>
+        <activity android:name=".contact_online" android:exported="true" />
+        <activity android:name=".myinfo" android:exported="true" />
+        <activity android:name=".newchat" android:exported="true" />
+        <activity android:name=".add_bots" android:exported="true"></activity>
     </application>
 
 </manifest>

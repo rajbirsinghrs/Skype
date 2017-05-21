@@ -7,12 +7,18 @@
     tools:context="com.example.a1691586.skype.calls">
 
     <LinearLayout
-        android:layout_width="445dp"
+        android:layout_width="0dp"
         android:layout_height="572dp"
         android:orientation="vertical"
         android:weightSum="1"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="10dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="16dp"
+        app:layout_constraintRight_toRightOf="parent">
 
         <LinearLayout
             android:layout_width="384dp"
@@ -61,7 +67,7 @@
 
             <ImageView
                 android:id="@+id/imageView9"
-                android:layout_width="match_parent"
+                android:layout_width="364dp"
                 android:layout_height="88dp"
                 android:layout_marginTop="12dp"
                 app:srcCompat="@drawable/tanu4" />
