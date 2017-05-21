@@ -11,7 +11,7 @@
         android:layout_height="578dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
+        android:layout_marginLeft="0dp"
         android:layout_marginRight="16dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
@@ -42,9 +42,9 @@
                 android:id="@+id/textView34"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="4.68"
-                android:paddingTop="14dp"
+                android:layout_weight="0.73"
                 android:text="New chat"
+                android:paddingTop="12dp"
                 android:textAlignment="center"
                 android:textColor="@color/cardview_dark_background"
                 android:textStyle="bold" />
@@ -53,13 +53,13 @@
                 android:id="@+id/imageView51"
                 android:layout_width="43dp"
                 android:layout_height="36dp"
-                android:paddingRight="8dp"
                 app:srcCompat="@drawable/video" />
 
             <ImageView
                 android:id="@+id/imageView52"
-                android:layout_width="27dp"
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:paddingRight="20dp"
 
                 app:srcCompat="@drawable/tanu9" />
         </LinearLayout>

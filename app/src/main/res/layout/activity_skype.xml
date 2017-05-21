@@ -23,7 +23,7 @@
         app:layout_constraintVertical_bias="0.0">
 
         <LinearLayout
-            android:layout_width="378dp"
+            android:layout_width="347dp"
             android:layout_height="54dp"
             android:orientation="horizontal"
             android:weightSum="1">
@@ -63,7 +63,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="10dp"
-                android:layout_weight="0.18"
+                android:layout_weight="0.02"
                 android:onClick="skype1"
                 app:srcCompat="@drawable/onee" />
 
@@ -122,7 +122,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:layout_weight="0.68"
+                android:layout_weight="0.59"
                 android:text="01-17"
                 android:textAlignment="textEnd" />
         </LinearLayout>
