@@ -184,7 +184,7 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/a M"
+                            android:id="@+id/textView55"
                             android:layout_width="268dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="4dp"
