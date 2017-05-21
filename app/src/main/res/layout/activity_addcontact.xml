@@ -45,7 +45,7 @@
                 android:textAlignment="center"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                android:layout_weight="0.73" />
+                android:layout_weight="0.47" />
 
         </LinearLayout>
 
@@ -56,15 +56,15 @@
 
             <ImageView
                 android:id="@+id/imageView42"
-                android:layout_width="189dp"
+                android:layout_width="168dp"
+                android:layout_marginLeft="20dp"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/people" />
 
             <ImageView
                 android:id="@+id/imageView45"
-                android:layout_width="wrap_content"
+                android:layout_width="165dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:onClick="addcontact1"
                 app:srcCompat="@drawable/botts" />
         </LinearLayout>
@@ -79,18 +79,19 @@
 
         <TextView
             android:id="@+id/textView32"
-            android:layout_width="match_parent"
+            android:layout_width="338dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
             android:text="   Search for people on Skype using their"
             android:textSize="18sp" />
 
         <TextView
             android:id="@+id/textView33"
-            android:layout_width="match_parent"
+            android:layout_width="335dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:layout_marginLeft="6dp"
+            android:layout_marginLeft="20dp"
             android:text="     Skype Name,email or full name."
             android:textSize="18sp" />
 
