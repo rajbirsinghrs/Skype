@@ -228,15 +228,15 @@
                 android:id="@+id/imageView32"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="5.09"
+                android:layout_weight="18.29"
                 app:srcCompat="@drawable/cal" />
 
             <ImageView
                 android:id="@+id/imageView33"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="3.85"
-                app:srcCompat="@drawable/myi" />
+                app:srcCompat="@drawable/myi"
+                android:layout_weight="10.64" />
         </LinearLayout>
 
     </LinearLayout>
