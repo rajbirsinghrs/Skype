@@ -93,10 +93,10 @@
         <ImageView
             android:id="@+id/imageView44"
             android:layout_width="256dp"
-            android:layout_height="wrap_content"
+            android:layout_height="29dp"
             android:layout_marginLeft="50dp"
             android:layout_marginTop="40dp"
-            app:srcCompat="@drawable/tanu33" />
+            app:srcCompat="@drawable/invite" />
 
     </LinearLayout>
 
