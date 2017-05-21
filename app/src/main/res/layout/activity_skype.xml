@@ -52,6 +52,7 @@
                 android:id="@+id/imageview56"
                 android:layout_width="53dp"
                 android:layout_height="match_parent"
+                android:onClick="skype"
                 android:paddingRight="30dp"
                 android:paddingTop="15dp"
                 app:srcCompat="@drawable/twoo" />
@@ -63,6 +64,7 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="10dp"
                 android:layout_weight="0.18"
+                android:onClick="skype1"
                 app:srcCompat="@drawable/onee" />
 
         </LinearLayout>
@@ -144,12 +146,14 @@
                 android:layout_width="58dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.09"
+                android:onClick="skype2"
                 app:srcCompat="@drawable/contact" />
 
             <ImageView
                 android:id="@+id/imageView4"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:onClick="skype3"
                 app:srcCompat="@drawable/calls" />
 
             <ImageView
@@ -157,6 +161,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.12"
+                android:onClick="skype4"
                 app:srcCompat="@drawable/dmy" />
 
         </LinearLayout>
