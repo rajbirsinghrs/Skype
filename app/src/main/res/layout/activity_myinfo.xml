@@ -203,20 +203,23 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="0.99"
+                android:onClick="myinfo"
                 app:srcCompat="@drawable/rec" />
 
             <ImageView
                 android:id="@+id/imageView37"
                 android:layout_width="89dp"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/contact"
-                android:layout_weight="0.25" />
+                android:layout_weight="0.25"
+                android:onClick="myinfo1"
+                app:srcCompat="@drawable/contact" />
 
             <ImageView
                 android:id="@+id/imageView39"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1.00"
+                android:onClick="myinfo2"
                 app:srcCompat="@drawable/callb" />
 
             <ImageView

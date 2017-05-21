@@ -31,6 +31,7 @@
                 android:layout_width="46dp"
                 android:layout_height="32dp"
                 android:layout_marginTop="12dp"
+                android:onClick="addcontact"
                 app:srcCompat="@drawable/tanu24" />
 
             <TextView

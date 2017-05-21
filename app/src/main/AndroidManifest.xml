@@ -16,9 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".screen3" />
-        <activity android:name=".calls" />
-        <activity android:name=".add_bots"></activity>
+        <activity android:name=".screen3" android:exported="true" />
+        <activity android:name=".calls" android:exported="true"/>
+        <activity android:name=".add_bots"android:exported="true"></activity>
     </application>
 
 </manifest>

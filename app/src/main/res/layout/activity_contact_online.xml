@@ -42,15 +42,16 @@
                 android:layout_width="51dp"
                 android:layout_height="wrap_content"
                 android:background="@color/cardview_light_background"
+                android:onClick="contactonline5"
                 app:srcCompat="@drawable/twoo" />
         </LinearLayout>
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="426dp"
+            android:layout_height="380dp"
             android:layout_marginTop="5dp"
-            android:layout_weight="0.92"
-            android:background="#ffffff">
+            android:background="#ffffff"
+            android:layout_weight="0.22">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -79,6 +80,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="1dp"
+                        android:onClick="contactonline3"
                         app:srcCompat="@drawable/allwhite" />
 
                     <ImageView
@@ -93,6 +95,7 @@
                         android:layout_width="104dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="1dp"
+                        android:onClick="contactonline4"
                         app:srcCompat="@drawable/whitebots" />
                 </LinearLayout>
 
@@ -246,6 +249,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1.15"
                 android:background="@color/cardview_light_background"
+                android:onClick="contactonline"
                 app:srcCompat="@drawable/drecent" />
 
             <ImageView
@@ -262,6 +266,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@color/cardview_light_background"
+                android:onClick="contactonline1"
                 app:srcCompat="@drawable/calssss" />
 
             <ImageView
@@ -270,6 +275,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="0.84"
                 android:background="@color/cardview_light_background"
+                android:onClick="contactonline2"
                 app:srcCompat="@drawable/dmy" />
 
         </LinearLayout>

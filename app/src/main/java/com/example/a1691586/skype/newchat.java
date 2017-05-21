@@ -17,5 +17,5 @@ public class newchat extends AppCompatActivity {
         Intent intent = new Intent(this, skype.class);
         startActivity(intent);
     }
-    
+
 }

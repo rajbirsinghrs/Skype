@@ -216,12 +216,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="5.56"
+                android:onClick="call"
                 app:srcCompat="@drawable/rec" />
 
             <ImageView
                 android:id="@+id/imageView31"
                 android:layout_width="93dp"
                 android:layout_height="wrap_content"
+                android:onClick="call1"
                 app:srcCompat="@drawable/contact" />
 
             <ImageView
@@ -235,8 +237,9 @@
                 android:id="@+id/imageView33"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/myi"
-                android:layout_weight="10.64" />
+                android:layout_weight="10.64"
+                android:onClick="call2"
+                app:srcCompat="@drawable/myi" />
         </LinearLayout>
 
     </LinearLayout>

@@ -42,6 +42,7 @@
                 android:layout_width="51dp"
                 android:layout_height="wrap_content"
                 android:background="@color/cardview_light_background"
+                android:onClick="bots5"
                 app:srcCompat="@drawable/twoo" />
         </LinearLayout>
 
@@ -79,6 +80,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="1dp"
+                        android:onClick="bots3"
                         app:srcCompat="@drawable/addddd" />
 
                     <ImageView
@@ -86,6 +88,7 @@
                         android:layout_width="103dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="1dp"
+                        android:onClick="bots4"
                         app:srcCompat="@drawable/online" />
 
                     <ImageView
@@ -270,6 +273,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1.15"
                 android:background="@color/cardview_light_background"
+                android:onClick="bots"
                 app:srcCompat="@drawable/drecent" />
 
             <ImageView
@@ -286,6 +290,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@color/cardview_light_background"
+                android:onClick="bots1"
                 app:srcCompat="@drawable/calssss" />
 
             <ImageView
