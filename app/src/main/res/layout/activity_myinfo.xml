@@ -203,7 +203,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="0.99"
-                app:srcCompat="@drawable/re" />
+                app:srcCompat="@drawable/rec" />
 
             <ImageView
                 android:id="@+id/imageView37"
@@ -217,14 +217,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1.00"
-                app:srcCompat="@drawable/ca" />
+                app:srcCompat="@drawable/callb" />
 
             <ImageView
                 android:id="@+id/imageView40"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1.00"
-                app:srcCompat="@drawable/my" />
+                app:srcCompat="@drawable/myin" />
 
         </LinearLayout>
 
