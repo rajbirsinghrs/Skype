@@ -17,48 +17,81 @@
         android:layout_marginTop="8dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:layout_constraintHorizontal_bias="0.0">
+        app:layout_constraintVertical_bias="0.0">
 
-    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp">
 
-    <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="0dp">
+            <ImageView
+                android:id="@+id/imageView36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/tanu24" />
 
-        <ImageView
-            android:id="@+id/imageView36"
-            android:layout_width="wrap_content"
-            android:layout_height="53dp"
-            android:layout_weight="0.99"
-            app:srcCompat="@drawable/tanu24" />
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="4.68"
+                android:paddingTop="14dp"
+                android:text="New chat"
+                android:textAlignment="center"
+                android:textColor="@color/cardview_dark_background"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView51"
+                android:layout_width="43dp"
+                android:layout_height="36dp"
+                android:paddingRight="8dp"
+                app:srcCompat="@drawable/video" />
+
+            <ImageView
+                android:id="@+id/imageView52"
+                android:layout_width="27dp"
+                android:layout_height="match_parent"
+
+                app:srcCompat="@drawable/tanu9" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="354dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="To: Select contacts to add"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="6dp"
+            android:textSize="14sp" />
 
         <TextView
-            android:id="@+id/textView34"
-            android:layout_width="wrap_content"
+            android:id="@+id/textView35"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="4.69"
-            android:text="New chat"
-            android:textAlignment="center"
+            android:text="Skype contacts"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="6dp"
             android:textStyle="bold" />
 
         <ImageView
-            android:id="@+id/imageView51"
-            android:layout_width="43dp"
+            android:id="@+id/imageView53"
+            android:layout_width="349dp"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/video" />
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="6dp"
+            app:srcCompat="@drawable/newscreenshot" />
 
-        <ImageView
-            android:id="@+id/imageView52"
-            android:layout_width="41dp"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/tanu9" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
