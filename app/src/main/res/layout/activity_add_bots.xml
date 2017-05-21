@@ -67,17 +67,17 @@
 
                     <ImageView
                         android:id="@+id/imageView48"
-                        android:layout_width="171dp"
+                        android:layout_width="166dp"
                         android:layout_height="match_parent"
-                        android:layout_weight="1.10"
                         android:onClick="addbots1"
                         app:srcCompat="@drawable/people1" />
 
                     <ImageView
                         android:id="@+id/imageView49"
-                        android:layout_width="187dp"
+                        android:layout_width="166dp"
                         android:layout_height="30dp"
-                        app:srcCompat="@drawable/bots1" />
+                        app:srcCompat="@drawable/bots1"
+                        android:layout_weight="0.44" />
                 </LinearLayout>
 
                 <ImageView
