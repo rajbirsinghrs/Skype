@@ -214,30 +214,29 @@
             <ImageView
                 android:id="@+id/imageView30"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/drecent" />
+                android:layout_height="match_parent"
+                android:layout_weight="5.56"
+                app:srcCompat="@drawable/rec" />
 
             <ImageView
                 android:id="@+id/imageView31"
-                android:layout_width="wrap_content"
+                android:layout_width="93dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/contactssssss" />
+                app:srcCompat="@drawable/contact" />
 
             <ImageView
                 android:id="@+id/imageView32"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/calssss" />
+                android:layout_height="match_parent"
+                android:layout_weight="5.09"
+                app:srcCompat="@drawable/cal" />
 
             <ImageView
                 android:id="@+id/imageView33"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/dmy" />
+                android:layout_height="match_parent"
+                android:layout_weight="3.85"
+                app:srcCompat="@drawable/myi" />
         </LinearLayout>
 
     </LinearLayout>
